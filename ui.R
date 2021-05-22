@@ -64,7 +64,7 @@ body = dashboardBody(tags$script(HTML("$('body').addClass('fixed');")),
                          tabItem(tabName = "IB", h2(tags$b("iBanking: Accesible, fácil de usar y poderosa"), align = "center"), br(),
                                  
                                  h4(style="text-align: justify;", "Bienvenido a iBanking, una aplicación para profesionales de la 
-                                    indutria financiera. Esta app está pensada para banqueros y quants que quieran hacer cálculos 
+                                    industria financiera. Esta app está pensada para banqueros y quants que quieran hacer cálculos 
                                     desde la web o desde su dispositivo móvil, todo muy rápido y con gran alcance. Por ahora nos 
                                     encontramos en fase beta con perspectivas de incorporar más herramientas. Por tal motivo
                                     ahora solo verás dos grandes rubros:

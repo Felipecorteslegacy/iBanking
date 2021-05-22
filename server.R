@@ -1,4 +1,6 @@
 library(shiny)
+library(shinythemes)
+library(shinydashboard)
 library(quantmod)
 library(optionstrat)
 library(ggplot2)
@@ -13,7 +15,7 @@ library(DT)
 # Define server logic required to draw a histogram
 
 
-shinyServer(function(input, output) {
+server <- function(input, output) {
 
     libre = reactive({
         
@@ -494,7 +496,7 @@ shinyServer(function(input, output) {
         
     })
     
-})
+}
 
 
 

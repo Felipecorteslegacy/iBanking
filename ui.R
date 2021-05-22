@@ -1,6 +1,15 @@
 library(shiny)
 library(shinythemes)
 library(shinydashboard)
+library(quantmod)
+library(optionstrat)
+library(ggplot2)
+library(plotly)
+library(zoo)
+library(xts)
+library(dplyr)
+library(readxl)
+library(DT)
 
 
 
